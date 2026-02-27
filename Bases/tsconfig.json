@@ -7,8 +7,8 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "es5",
+    "target": "commonjs",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -17,6 +17,7 @@
 
     // Other Outputs
     "sourceMap": false,
+    "outFile": "/main.js",
     "declaration": false,
     "declarationMap": false,
 
