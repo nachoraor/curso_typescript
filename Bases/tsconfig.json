@@ -3,12 +3,12 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    // "outDir": "./dist",
+    //"outDir": "./dist",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "es5",
-    "target": "commonjs",
+    "module": "amd",
+    "target": "es6",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -16,10 +16,10 @@
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": false,
-    "outFile": "/main.js",
-    "declaration": false,
-    "declarationMap": false,
+    "sourceMap": true,
+    "outFile": "./main.js",
+    //"declaration": false,
+    //"declarationMap": false,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
@@ -36,10 +36,16 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
+    //"verbatimModuleSyntax": true,
+    "isolatedModules": false,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "exclude": [
+
+  ],
+  "include": [
+    
+  ]
 }
